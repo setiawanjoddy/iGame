@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A07A28926FB67E30093AF1A /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07A28826FB67E30093AF1A /* NetworkHelper.swift */; };
+		5A07A28B26FB68190093AF1A /* GameData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07A28A26FB68190093AF1A /* GameData.swift */; };
+		5A07A28E26FB755F0093AF1A /* GamesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A07A28C26FB755F0093AF1A /* GamesTableViewCell.swift */; };
+		5A07A28F26FB755F0093AF1A /* GamesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5A07A28D26FB755F0093AF1A /* GamesTableViewCell.xib */; };
 		5A27037E26EFB2FB004D1689 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A27037D26EFB2FB004D1689 /* AppDelegate.swift */; };
 		5A27038026EFB2FB004D1689 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A27037F26EFB2FB004D1689 /* SceneDelegate.swift */; };
 		5A27038226EFB2FB004D1689 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A27038126EFB2FB004D1689 /* ViewController.swift */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		143CADD5BD51199B99B9AD1D /* Pods-iGame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGame.debug.xcconfig"; path = "Target Support Files/Pods-iGame/Pods-iGame.debug.xcconfig"; sourceTree = "<group>"; };
+		5A07A28826FB67E30093AF1A /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
+		5A07A28A26FB68190093AF1A /* GameData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameData.swift; sourceTree = "<group>"; };
+		5A07A28C26FB755F0093AF1A /* GamesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesTableViewCell.swift; sourceTree = "<group>"; };
+		5A07A28D26FB755F0093AF1A /* GamesTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GamesTableViewCell.xib; sourceTree = "<group>"; };
 		5A27037A26EFB2FB004D1689 /* iGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A27037D26EFB2FB004D1689 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A27037F26EFB2FB004D1689 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				5A27039526EFB7EA004D1689 /* Constants.swift */,
+				5A07A28A26FB68190093AF1A /* GameData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -114,6 +123,7 @@
 			children = (
 				5A27038826EFB2FC004D1689 /* LaunchScreen.storyboard */,
 				5A27038326EFB2FB004D1689 /* Main.storyboard */,
+				5A07A28D26FB755F0093AF1A /* GamesTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -121,7 +131,9 @@
 		5A27039426EFB40D004D1689 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				5A07A28C26FB755F0093AF1A /* GamesTableViewCell.swift */,
 				5A27038126EFB2FB004D1689 /* ViewController.swift */,
+				5A07A28826FB67E30093AF1A /* NetworkHelper.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -188,6 +200,7 @@
 				5A27038A26EFB2FC004D1689 /* LaunchScreen.storyboard in Resources */,
 				5A27038726EFB2FC004D1689 /* Assets.xcassets in Resources */,
 				5A27038526EFB2FB004D1689 /* Main.storyboard in Resources */,
+				5A07A28F26FB755F0093AF1A /* GamesTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,7 +254,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A27038226EFB2FB004D1689 /* ViewController.swift in Sources */,
+				5A07A28B26FB68190093AF1A /* GameData.swift in Sources */,
 				5A27037E26EFB2FB004D1689 /* AppDelegate.swift in Sources */,
+				5A07A28E26FB755F0093AF1A /* GamesTableViewCell.swift in Sources */,
+				5A07A28926FB67E30093AF1A /* NetworkHelper.swift in Sources */,
 				5A27038026EFB2FB004D1689 /* SceneDelegate.swift in Sources */,
 				5A27039626EFB7EA004D1689 /* Constants.swift in Sources */,
 			);
