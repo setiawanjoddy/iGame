@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         self.navigationItem.title = "iGame"
         
         loadData()
+        profileButtonSetup()
         
         gamesTableView.delegate = self
         gamesTableView.dataSource = self
@@ -34,6 +35,23 @@ class ViewController: UIViewController {
             self.games = data
             self.gamesTableView.reloadData()
         }
+    }
+    
+    func profileButtonSetup() {
+        let containView = UIControl(frame: CGRect(x: 0, y: 0, width: 35, height: 35))
+        let imageView = UIImageView(frame: CGRect(x: 0, y: 0, width: 35, height: 35))
+        imageView.image = UIImage(named: "profile_setiawanjoddy")
+        imageView.contentMode = UIView.ContentMode.scaleAspectFill
+        imageView.layer.cornerRadius = imageView.frame.height / 2
+        imageView.layer.masksToBounds = true
+        containView.addSubview(imageView)
+        containView.addTarget(self, action: #selector(profileButtonPressed), for: .touchUpInside)
+        let rightBarButton = UIBarButtonItem(customView: containView)
+        self.navigationItem.rightBarButtonItem = rightBarButton
+    }
+    
+    @objc func profileButtonPressed() {
+        performSegue(withIdentifier: "toProfile", sender: self)
     }
 
 }
@@ -60,6 +78,4 @@ extension ViewController: UITableViewDataSource {
             return UITableViewCell()
         }
     }
-    
-    
 }
