@@ -57,7 +57,13 @@ class ViewController: UIViewController {
 }
 
 extension ViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let detail = DetailViewController(nibName: "DetailViewController", bundle: nil)
+        detail.id = games[indexPath.row].id
+        
+        self.navigationController?.pushViewController(detail, animated: true)
+        tableView.deselectRow(at: indexPath, animated: true)
+    }
 }
 
 extension ViewController: UITableViewDataSource {

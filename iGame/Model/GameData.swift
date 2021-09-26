@@ -7,11 +7,11 @@
 
 import Foundation
 
-struct GameData: Codable {
+struct GameData: Decodable {
     let results: [Results]
 }
 
-struct Results: Codable {
+struct Results: Decodable {
     let id: Int
     let name: String
     let released: String
