@@ -20,6 +20,8 @@
 		5A27039626EFB7EA004D1689 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A27039526EFB7EA004D1689 /* Constants.swift */; };
 		5A5C88BA2700B1B600F49AA5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A5C88B92700B1B600F49AA5 /* ProfileViewController.swift */; };
 		5ADA3E2027004B4600ADCD18 /* DetailData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ADA3E1F27004B4600ADCD18 /* DetailData.swift */; };
+		5AE559BF2700C45A00EC7626 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AE559BD2700C45A00EC7626 /* DetailViewController.swift */; };
+		5AE559C02700C45A00EC7626 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5AE559BE2700C45A00EC7626 /* DetailViewController.xib */; };
 		FB7D6B2FB69AE91C9079DB56 /* Pods_iGame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F622B40ED4EF08AEA69DB4C /* Pods_iGame.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +42,8 @@
 		5A27039526EFB7EA004D1689 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		5A5C88B92700B1B600F49AA5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5ADA3E1F27004B4600ADCD18 /* DetailData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailData.swift; sourceTree = "<group>"; };
+		5AE559BD2700C45A00EC7626 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		5AE559BE2700C45A00EC7626 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		5D965A44F202BEACCAB0EC2D /* Pods-iGame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iGame.release.xcconfig"; path = "Target Support Files/Pods-iGame/Pods-iGame.release.xcconfig"; sourceTree = "<group>"; };
 		8F622B40ED4EF08AEA69DB4C /* Pods_iGame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iGame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -129,6 +133,7 @@
 				5A27038826EFB2FC004D1689 /* LaunchScreen.storyboard */,
 				5A27038326EFB2FB004D1689 /* Main.storyboard */,
 				5A07A28D26FB755F0093AF1A /* GamesTableViewCell.xib */,
+				5AE559BE2700C45A00EC7626 /* DetailViewController.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 				5A07A28C26FB755F0093AF1A /* GamesTableViewCell.swift */,
 				5A27038126EFB2FB004D1689 /* ViewController.swift */,
 				5A07A28826FB67E30093AF1A /* NetworkHelper.swift */,
+				5AE559BD2700C45A00EC7626 /* DetailViewController.swift */,
 				5A5C88B92700B1B600F49AA5 /* ProfileViewController.swift */,
 			);
 			path = Controller;
@@ -205,6 +211,7 @@
 			files = (
 				5A27038A26EFB2FC004D1689 /* LaunchScreen.storyboard in Resources */,
 				5A27038726EFB2FC004D1689 /* Assets.xcassets in Resources */,
+				5AE559C02700C45A00EC7626 /* DetailViewController.xib in Resources */,
 				5A27038526EFB2FB004D1689 /* Main.storyboard in Resources */,
 				5A07A28F26FB755F0093AF1A /* GamesTableViewCell.xib in Resources */,
 			);
@@ -266,6 +273,7 @@
 				5A07A28E26FB755F0093AF1A /* GamesTableViewCell.swift in Sources */,
 				5A07A28926FB67E30093AF1A /* NetworkHelper.swift in Sources */,
 				5A5C88BA2700B1B600F49AA5 /* ProfileViewController.swift in Sources */,
+				5AE559BF2700C45A00EC7626 /* DetailViewController.swift in Sources */,
 				5A27038026EFB2FB004D1689 /* SceneDelegate.swift in Sources */,
 				5A27039626EFB7EA004D1689 /* Constants.swift in Sources */,
 			);
